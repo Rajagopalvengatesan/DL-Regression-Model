@@ -40,9 +40,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: SANJAY C
+### Name: RAJA GOPAL V
 
-### Register Number: 212223240150
+### Register Number: 212223240134
 
 ```python
 import torch
@@ -104,8 +104,8 @@ model = Model(1, 1)
 # Print Initial Weights and Bias
 initial_weight = model.linear.weight.item()
 initial_bias = model.linear.bias.item()
-print("\nName: Sanjay C")
-print("Register No: 212223240150")
+print("\nName: RAJA")
+print("Register No: 212223240134")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 ```
 <img width="504" height="98" alt="image" src="https://github.com/user-attachments/assets/a32caedc-a7b0-4289-b168-3e2e212ad859" />
@@ -154,8 +154,8 @@ plt.show()
 # Final Weights & Bias
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
-print("\nName: Sanjay C")
-print("Register No: 212223240150")
+print("\nName: RAJA")
+print("Register No: 21222324014")
 print(f'\nFinal Weight: {final_weight:.8f}, Final Bias: {final_bias:.8f}')
 ```
 
@@ -185,8 +185,8 @@ plt.show()
 # Prediction for x = 120
 x_new = torch.tensor([[120.0]])  # New input as a tensor
 y_new_pred = model(x_new).item()  # Predict using trained model
-print("\nName: Sanjay C")
-print("Register No: 212223240150")
+print("\nName: RAJA")
+print("Register No: 212223240134")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
 ```
 <img width="369" height="103" alt="image" src="https://github.com/user-attachments/assets/2add298a-afbd-4ca9-8395-defd755b09a5" />
